@@ -1,0 +1,28 @@
+{
+  "name": "proxmox-discord-notify",
+  "version": "1.0.0",
+  "description": "A script to send proxmox tasks to discord using webhooks <3!",
+  "main": "index.js",
+  "author": "NaysKutzu",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.7.7"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mythicalltd/proxmox-discord-notify.git"
+  },
+  "keywords": [
+    "proxmox",
+    "discord",
+    "webhooks",
+    "notifications"
+  ],
+  "bugs": {
+    "url": "https://github.com/mythicalltd/proxmox-discord-notify/issues"
+  },
+  "homepage": "https://github.com/mythicalltd/proxmox-discord-notify#readme"
+}

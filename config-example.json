@@ -1,0 +1,14 @@
+{
+    "DISCORD_WEBHOOK_URL": "https://discordapp.com/api/webhooks/<url>",
+    "CHECK_INTERVAL": 10000,
+    "SENT_TASKS_FILE": "/tmp/sent_tasks.json",
+    "TASK_TYPES": [
+        "stopall",
+        "startall",
+        "vzrestore",
+        "vzdump",
+        "imgdel"
+    ],
+    "MAX_SENT_TASKS_FILE_SIZE_MB": 500,
+    "PROXMOX_NODE": "mythicalsystems"
+}
